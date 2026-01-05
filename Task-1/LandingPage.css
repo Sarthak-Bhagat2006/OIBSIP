@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.landing {
+  height: 100vh;
+  background: url("./assets/10293893.jpg");
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: rgb(227, 66, 7);
+  margin: 30px 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.lang {
+  color: rgb(21, 83, 70);
+  margin: 30px 40px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  margin-bottom: 2rem;
+  font-size: 25px;
+}
+
+.guarantee {
+  font-size: 12px;
+}
+
+.btn-redirect {
+  height: 40px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: rgb(21, 83, 70);
+  margin-bottom: 2rem;
+}
+
+.btn-redirect:hover {
+  cursor: pointer;
+  background-color: rgb(44, 157, 133);
+}

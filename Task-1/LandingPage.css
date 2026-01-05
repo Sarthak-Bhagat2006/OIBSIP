@@ -4,7 +4,11 @@ body {
 }
 .landing {
   height: 100vh;
-  background: url("./assets/10293893.jpg");
+}
+
+.container {
+  background: url("./assets/hero.jpg");
+  height: 100vh;
 }
 
 .header {
@@ -59,4 +63,60 @@ body {
 .btn-redirect:hover {
   cursor: pointer;
   background-color: rgb(44, 157, 133);
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.serviceImg {
+  height: 350px;
+  width: 350px;
+  padding: 2rem;
+}
+
+.serviceImg1 {
+  height: 250px;
+  width: 250px;
+  padding: 2rem;
+}
+
+.left {
+  width: 30rem;
+  padding-left: 10rem;
+}
+
+.right {
+  width: 30rem;
+  padding-left: 10rem;
+}
+
+.features {
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+}
+
+.feature {
+  height: 20vh;
+  width: 25vh;
+}
+
+.feature img {
+  width: 10rem;
+  height: 5rem;
+}
+
+.more a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(21, 83, 70);
+  padding: 5rem;
 }

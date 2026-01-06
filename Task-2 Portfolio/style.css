@@ -1,0 +1,120 @@
+body {
+  color: white;
+  background-image: url("images/bg.avif");
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  text-align: center;
+  height: 100vh;
+  letter-spacing: 2px;
+  background-color: rgb(15, 14, 28);
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+img {
+  height: 6rem;
+}
+
+.logo {
+  height: 6rem;
+  padding: 3rem;
+}
+
+li {
+  color: white;
+  list-style: none;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 0 20px;
+  font-weight: bolder;
+}
+
+.info h1 {
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+.info p {
+  opacity: 0.8;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+}
+
+.profile-img {
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid grey;
+  margin: 20px 0;
+}
+
+a img {
+  width: 50px;
+  height: 50px;
+  box-shadow: 1px 1px 8px white;
+  border-radius: 15px;
+  margin: 20px 10px;
+}
+
+a img:hover {
+  box-shadow: 2px 2px 16px white;
+}
+
+.fading-line {
+  width: 100%; /* Full-width line */
+  height: 4px; /* Thickness of the line */
+  background: linear-gradient(to right, transparent, white, transparent);
+  margin: 20px 0; /* Spacing above and below the line */
+}
+
+.achivment {
+  display: grid;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 60px;
+  padding: 20px;
+  white-space: nowrap;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 40vh;
+  width: 50vw;
+  border: 0.5px solid #070f19;
+  border-radius: 15px;
+  background-color: #0d1723;
+  box-shadow: inset -4px 1px 10px #1e2e42;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Image inside each Project Card */
+.project img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1.5px solid gray;
+  margin-bottom: 10px;
+}
+.project .name {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.project p {
+  opacity: 0.5;
+}

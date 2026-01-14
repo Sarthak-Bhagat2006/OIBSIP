@@ -4,7 +4,7 @@ const cors = require("cors");
 require("dotenv").config();
 
 const authRoutes = require("./routes/authRoutes");
-const pizzaRoutes = require("./routes/pizzaRoutes");
+const pizzaRoutes = require("./routes/pizzaRoutes.js");
 const orderRoutes = require("./routes/orderRoutes");
 const adminRoutes = require("./routes/adminRoutes");
 
